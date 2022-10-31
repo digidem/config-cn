@@ -1,0 +1,17 @@
+{
+    "key": "instalacao",
+    "type": "select_multiple",
+    "label": "Instalação do aparelho",
+    "placeholder": "Como é a estrutura para instalação nees ponto?",
+    "options": [
+        "Estrutura de concreto",
+        "Estrutura de madeira",
+        "Estrutura de barro",
+        "Árvore",
+        "Poste de madeira",
+        "Poste de concreto",
+        "Poste de ferro",
+        "Caixa d'água",
+        "Torre"
+    ]
+}

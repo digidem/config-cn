@@ -1,0 +1,7 @@
+{
+    "key": "building-type",
+    "type": "select_one",
+    "label": "Building type",
+    "placeholder": "School/hospital/etc",
+    "options": ["School", "Hospital", "Homestead", "Church", "Shop", "Other"]
+}

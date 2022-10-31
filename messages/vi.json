@@ -1,0 +1,278 @@
+{
+  "fields.animal-type.label": {
+    "description": "Label for field 'animal-type'",
+    "message": "Loại động vật"
+  },
+  "fields.animal-type.placeholder": {
+    "description": "An example to guide the user for field 'animal-type'",
+    "message": "Đây là loài động vật nào?"
+  },
+  "fields.building-type.label": {
+    "description": "Label for field 'building-type'",
+    "message": "Loại tòa nhà"
+  },
+  "fields.building-type.options.\"Church\"": {
+    "description": "Select option for field 'building-type' for value '\"Church\"'",
+    "message": "Nhà thờ"
+  },
+  "fields.building-type.options.\"Homestead\"": {
+    "description": "Select option for field 'building-type' for value '\"Homestead\"'",
+    "message": "Trang trại"
+  },
+  "fields.building-type.options.\"Hospital\"": {
+    "description": "Select option for field 'building-type' for value '\"Hospital\"'",
+    "message": "Bệnh viện"
+  },
+  "fields.building-type.options.\"Other\"": {
+    "description": "Select option for field 'building-type' for value '\"Other\"'",
+    "message": "Khác"
+  },
+  "fields.building-type.options.\"School\"": {
+    "description": "Select option for field 'building-type' for value '\"School\"'",
+    "message": "Trường học"
+  },
+  "fields.building-type.options.\"Shop\"": {
+    "description": "Select option for field 'building-type' for value '\"Shop\"'",
+    "message": "Cửa hàng"
+  },
+  "fields.building-type.placeholder": {
+    "description": "An example to guide the user for field 'building-type'",
+    "message": "Trường học/bệnh viện/vv"
+  },
+  "fields.items-gathered.label": {
+    "description": "Label for field 'items-gathered'",
+    "message": "Cái gì được tập trung ở đây?"
+  },
+  "fields.items-gathered.placeholder": {
+    "description": "An example to guide the user for field 'items-gathered'",
+    "message": "ví dụ: củi/thuốc, vv"
+  },
+  "fields.name.label": {
+    "description": "Label for field 'name'",
+    "message": "Tên"
+  },
+  "fields.name.placeholder": {
+    "description": "An example to guide the user for field 'name'",
+    "message": "Tên thường gọi của địa điểm này"
+  },
+  "fields.note.label": {
+    "description": "Label for field 'note'",
+    "message": "Ghi chú"
+  },
+  "fields.note.placeholder": {
+    "description": "An example to guide the user for field 'note'",
+    "message": "Câu chuyện hoặc ghi chú về địa điểm này"
+  },
+  "fields.owner.label": {
+    "description": "Label for field 'owner'",
+    "message": "Người sở hữu"
+  },
+  "fields.owner.placeholder": {
+    "description": "An example to guide the user for field 'owner'",
+    "message": "Người sở hữu hoặc người sử dụng địa điểm"
+  },
+  "fields.palm-species.label": {
+    "description": "Label for field 'palm-species'",
+    "message": "Các loài cọ"
+  },
+  "fields.palm-species.placeholder": {
+    "description": "An example to guide the user for field 'palm-species'",
+    "message": "Đây là loài cọ gì?"
+  },
+  "fields.plant-species.label": {
+    "description": "Label for field 'plant-species'",
+    "message": "Các loài cây"
+  },
+  "fields.plant-species.placeholder": {
+    "description": "An example to guide the user for field 'plant-species'",
+    "message": "Đây là loài cây gì?"
+  },
+  "fields.source.label": {
+    "description": "Label for field 'source'",
+    "message": "Nguồn"
+  },
+  "fields.source.placeholder": {
+    "description": "An example to guide the user for field 'source'",
+    "message": "Nguồn dữ liệu"
+  },
+  "fields.tree-species.label": {
+    "description": "Label for field 'tree-species'",
+    "message": "Các loài cây"
+  },
+  "fields.tree-species.placeholder": {
+    "description": "An example to guide the user for field 'tree-species'",
+    "message": "Đây là loài cây gì?"
+  },
+  "fields.type.label": {
+    "description": "Label for field 'type'",
+    "message": "Đây là đường gì?"
+  },
+  "fields.type.placeholder": {
+    "description": "An example to guide the user for field 'type'",
+    "message": "Con đường này dùng để làm gì?"
+  },
+  "presets.airstrip.name": {
+    "description": "The name of preset 'airstrip'",
+    "message": "Đường bay"
+  },
+  "presets.airstrip.terms": {
+    "description": "List of search terms for preset 'airstrip'",
+    "message": "sân bay, hạ cánh"
+  },
+  "presets.animal.name": {
+    "description": "The name of preset 'animal'",
+    "message": "Động vật"
+  },
+  "presets.area.name": {
+    "description": "The name of preset 'area'",
+    "message": "Khu vực mới"
+  },
+  "presets.boundary-line.name": {
+    "description": "The name of preset 'boundary-line'",
+    "message": "ranh giới"
+  },
+  "presets.boundary-line.terms": {
+    "description": "List of search terms for preset 'boundary-line'",
+    "message": "biên giới, biên thùy"
+  },
+  "presets.building.name": {
+    "description": "The name of preset 'building'",
+    "message": "Tòa nhà"
+  },
+  "presets.building.terms": {
+    "description": "List of search terms for preset 'building'",
+    "message": "bệnh viện, trường học"
+  },
+  "presets.camp.name": {
+    "description": "The name of preset 'camp'",
+    "message": "Trại"
+  },
+  "presets.camp.terms": {
+    "description": "List of search terms for preset 'camp'",
+    "message": "khu cắm trại, đi cắm trại, săn bắn"
+  },
+  "presets.cave.name": {
+    "description": "The name of preset 'cave'",
+    "message": "Hang động"
+  },
+  "presets.clay.name": {
+    "description": "The name of preset 'clay'",
+    "message": "Đất sét"
+  },
+  "presets.community.name": {
+    "description": "The name of preset 'community'",
+    "message": "Cộng đồng"
+  },
+  "presets.community.terms": {
+    "description": "List of search terms for preset 'community'",
+    "message": "làng"
+  },
+  "presets.fishing-site.name": {
+    "description": "The name of preset 'fishing-site'",
+    "message": "Khu câu cá"
+  },
+  "presets.fishing-site.terms": {
+    "description": "List of search terms for preset 'fishing-site'",
+    "message": "cá"
+  },
+  "presets.gathering-site.name": {
+    "description": "The name of preset 'gathering-site'",
+    "message": "Địa điểm tụ họp"
+  },
+  "presets.gathering-site.terms": {
+    "description": "List of search terms for preset 'gathering-site'",
+    "message": "bộ sưu tập"
+  },
+  "presets.hills.name": {
+    "description": "The name of preset 'hills'",
+    "message": "Đồi"
+  },
+  "presets.hills.terms": {
+    "description": "List of search terms for preset 'hills'",
+    "message": "núi"
+  },
+  "presets.house.name": {
+    "description": "The name of preset 'house'",
+    "message": "Nhà"
+  },
+  "presets.house.terms": {
+    "description": "List of search terms for preset 'house'",
+    "message": "nhà"
+  },
+  "presets.hunting-site.name": {
+    "description": "The name of preset 'hunting-site'",
+    "message": "Khu săn bắn"
+  },
+  "presets.lake.name": {
+    "description": "The name of preset 'lake'",
+    "message": "Hồ"
+  },
+  "presets.line.name": {
+    "description": "The name of preset 'line'",
+    "message": "Dòng mới"
+  },
+  "presets.palm.name": {
+    "description": "The name of preset 'palm'",
+    "message": "Cây cọ"
+  },
+  "presets.path.name": {
+    "description": "The name of preset 'path'",
+    "message": "Con đường"
+  },
+  "presets.plant.name": {
+    "description": "The name of preset 'plant'",
+    "message": "Cây"
+  },
+  "presets.point.name": {
+    "description": "The name of preset 'point'",
+    "message": "Điểm mới"
+  },
+  "presets.river.name": {
+    "description": "The name of preset 'river'",
+    "message": "Sông"
+  },
+  "presets.salt-lick.name": {
+    "description": "The name of preset 'salt-lick'",
+    "message": "Bãi liếm"
+  },
+  "presets.special-site.name": {
+    "description": "The name of preset 'special-site'",
+    "message": "Địa điểm đặc biệt"
+  },
+  "presets.special-site.terms": {
+    "description": "List of search terms for preset 'special-site'",
+    "message": "câu chuyện, linh thiêng, lịch sử"
+  },
+  "presets.stream.name": {
+    "description": "The name of preset 'stream'",
+    "message": "Suối"
+  },
+  "presets.swidden.name": {
+    "description": "The name of preset 'swidden'",
+    "message": "Đất nông nghiệp"
+  },
+  "presets.swidden.terms": {
+    "description": "List of search terms for preset 'swidden'",
+    "message": "trang trại, vườn, miếng đất, mảnh đất, đồng ruộng, trồng trọt"
+  },
+  "presets.threat.name": {
+    "description": "The name of preset 'threat'",
+    "message": "Các mối đe dọa"
+  },
+  "presets.threat.terms": {
+    "description": "List of search terms for preset 'threat'",
+    "message": "nguy hiểm, bất hợp pháp, giám sát"
+  },
+  "presets.tree.name": {
+    "description": "The name of preset 'tree'",
+    "message": "Cây"
+  },
+  "presets.waterfall.name": {
+    "description": "The name of preset 'waterfall'",
+    "message": "Thác nước"
+  },
+  "presets.waterfall.terms": {
+    "description": "List of search terms for preset 'waterfall'",
+    "message": "chảy xuống"
+  }
+}

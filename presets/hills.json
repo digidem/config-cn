@@ -1,0 +1,17 @@
+{
+    "icon": "hills",
+    "color": "#073B4C",
+    "sort": 11,
+    "fields": [
+        "name"],
+    "geometry": [
+        "point", "area"
+    ],
+    "tags": {
+        "type" : "natural",
+        "natural" : "peak"
+
+    },
+    "terms":["mountains"],
+    "name": "Hills"
+}

@@ -1,0 +1,18 @@
+{
+    "icon": "building",
+    "color": "#B209B2",
+    "sort": 10,
+    "fields": [
+        "building-type"
+    ],
+    "geometry": [
+        "point"
+
+    ],
+    "tags": {
+        "type" : "building"
+
+    },
+    "terms":["medical", "school"],
+    "name": "Building"
+}

@@ -1,0 +1,278 @@
+{
+  "fields.animal-type.label": {
+    "description": "Label for field 'animal-type'",
+    "message": "ប្រភេទសត្វ"
+  },
+  "fields.animal-type.placeholder": {
+    "description": "An example to guide the user for field 'animal-type'",
+    "message": "តើនេះជាប្រភេទសត្វអ្វី?"
+  },
+  "fields.building-type.label": {
+    "description": "Label for field 'building-type'",
+    "message": "ប្រភេទសំណង់"
+  },
+  "fields.building-type.options.\"Church\"": {
+    "description": "Select option for field 'building-type' for value '\"Church\"'",
+    "message": "ព្រះវិហារ"
+  },
+  "fields.building-type.options.\"Homestead\"": {
+    "description": "Select option for field 'building-type' for value '\"Homestead\"'",
+    "message": "ផ្ទះអ្នកស្រែ"
+  },
+  "fields.building-type.options.\"Hospital\"": {
+    "description": "Select option for field 'building-type' for value '\"Hospital\"'",
+    "message": "មន្ទីរពេទ្យ"
+  },
+  "fields.building-type.options.\"Other\"": {
+    "description": "Select option for field 'building-type' for value '\"Other\"'",
+    "message": "ផ្សេងទៀត"
+  },
+  "fields.building-type.options.\"School\"": {
+    "description": "Select option for field 'building-type' for value '\"School\"'",
+    "message": "សាលារៀន"
+  },
+  "fields.building-type.options.\"Shop\"": {
+    "description": "Select option for field 'building-type' for value '\"Shop\"'",
+    "message": "ហាង"
+  },
+  "fields.building-type.placeholder": {
+    "description": "An example to guide the user for field 'building-type'",
+    "message": "សាលារៀន / មន្ទីរពេទ្យ / ផ្សេងៗ"
+  },
+  "fields.items-gathered.label": {
+    "description": "Label for field 'items-gathered'",
+    "message": "reading"
+  },
+  "fields.items-gathered.placeholder": {
+    "description": "An example to guide the user for field 'items-gathered'",
+    "message": "ឧទា. អុស / ថ្នាំ។ ល។"
+  },
+  "fields.name.label": {
+    "description": "Label for field 'name'",
+    "message": "ឈ្មោះ"
+  },
+  "fields.name.placeholder": {
+    "description": "An example to guide the user for field 'name'",
+    "message": "ឈ្មោះទូទៅនៃកន្លែងនេះ"
+  },
+  "fields.note.label": {
+    "description": "Label for field 'note'",
+    "message": "កំណត់សំគាល់"
+  },
+  "fields.note.placeholder": {
+    "description": "An example to guide the user for field 'note'",
+    "message": "រឿងរ៉ាវឬកំណត់ត្រាអំពីកន្លែងនេះ"
+  },
+  "fields.owner.label": {
+    "description": "Label for field 'owner'",
+    "message": "ម្ចាស់"
+  },
+  "fields.owner.placeholder": {
+    "description": "An example to guide the user for field 'owner'",
+    "message": "ម្ចាស់ឬអ្នកប្រើប្រាស់ទីកន្លែង"
+  },
+  "fields.palm-species.label": {
+    "description": "Label for field 'palm-species'",
+    "message": "ប្រភេទដូង"
+  },
+  "fields.palm-species.placeholder": {
+    "description": "An example to guide the user for field 'palm-species'",
+    "message": "តើប្រភេទដូងអ្វី?"
+  },
+  "fields.plant-species.label": {
+    "description": "Label for field 'plant-species'",
+    "message": "ប្រភេទរុក្ខជាតិ"
+  },
+  "fields.plant-species.placeholder": {
+    "description": "An example to guide the user for field 'plant-species'",
+    "message": "តើប្រភេទរុក្ខជាតិអ្វី?"
+  },
+  "fields.source.label": {
+    "description": "Label for field 'source'",
+    "message": "ប្រភព"
+  },
+  "fields.source.placeholder": {
+    "description": "An example to guide the user for field 'source'",
+    "message": "ប្រភពទិន្នន័យ"
+  },
+  "fields.tree-species.label": {
+    "description": "Label for field 'tree-species'",
+    "message": "ប្រភេទដើមឈើ"
+  },
+  "fields.tree-species.placeholder": {
+    "description": "An example to guide the user for field 'tree-species'",
+    "message": "តើដើមឈើប្រភេទអ្វី?"
+  },
+  "fields.type.label": {
+    "description": "Label for field 'type'",
+    "message": "តើផ្លូវប្រភេទណា?"
+  },
+  "fields.type.placeholder": {
+    "description": "An example to guide the user for field 'type'",
+    "message": "តើផ្លូវនេះត្រូវបានប្រើសម្រាប់អ្វី?"
+  },
+  "presets.airstrip.name": {
+    "description": "The name of preset 'airstrip'",
+    "message": "ផ្លូវយន្តហោះ"
+  },
+  "presets.airstrip.terms": {
+    "description": "List of search terms for preset 'airstrip'",
+    "message": "អាកាសយានដ្ឋាន, ព្រលានយន្តហោះ, ចុះចត"
+  },
+  "presets.animal.name": {
+    "description": "The name of preset 'animal'",
+    "message": "សត្វ"
+  },
+  "presets.area.name": {
+    "description": "The name of preset 'area'",
+    "message": "តំបន់ថ្មី"
+  },
+  "presets.boundary-line.name": {
+    "description": "The name of preset 'boundary-line'",
+    "message": "ព្រំប្រទល់"
+  },
+  "presets.boundary-line.terms": {
+    "description": "List of search terms for preset 'boundary-line'",
+    "message": "ព្រំដែន"
+  },
+  "presets.building.name": {
+    "description": "The name of preset 'building'",
+    "message": "អាគារ"
+  },
+  "presets.building.terms": {
+    "description": "List of search terms for preset 'building'",
+    "message": "​ពេទ្យ, សាលារៀន"
+  },
+  "presets.camp.name": {
+    "description": "The name of preset 'camp'",
+    "message": "បោះជំរុំ"
+  },
+  "presets.camp.terms": {
+    "description": "List of search terms for preset 'camp'",
+    "message": "កន្លែងបោះជំរុំ, បោះជំរុំ, ប្រម៉ាញ់"
+  },
+  "presets.cave.name": {
+    "description": "The name of preset 'cave'",
+    "message": "រូងភ្នំ"
+  },
+  "presets.clay.name": {
+    "description": "The name of preset 'clay'",
+    "message": "ដីឥដ្ឋ"
+  },
+  "presets.community.name": {
+    "description": "The name of preset 'community'",
+    "message": "សហគមន៍"
+  },
+  "presets.community.terms": {
+    "description": "List of search terms for preset 'community'",
+    "message": "ភូមិ"
+  },
+  "presets.fishing-site.name": {
+    "description": "The name of preset 'fishing-site'",
+    "message": "កន្លែងនេសាទ"
+  },
+  "presets.fishing-site.terms": {
+    "description": "List of search terms for preset 'fishing-site'",
+    "message": "ត្រី"
+  },
+  "presets.gathering-site.name": {
+    "description": "The name of preset 'gathering-site'",
+    "message": "កន្លែងប្រមូលផ្តុំ"
+  },
+  "presets.gathering-site.terms": {
+    "description": "List of search terms for preset 'gathering-site'",
+    "message": "ប្រមូល"
+  },
+  "presets.hills.name": {
+    "description": "The name of preset 'hills'",
+    "message": "ភ្នំ"
+  },
+  "presets.hills.terms": {
+    "description": "List of search terms for preset 'hills'",
+    "message": "ភ្នំ"
+  },
+  "presets.house.name": {
+    "description": "The name of preset 'house'",
+    "message": "ផ្ទះ"
+  },
+  "presets.house.terms": {
+    "description": "List of search terms for preset 'house'",
+    "message": "ផ្ទះសំបែង, ផ្ទះ"
+  },
+  "presets.hunting-site.name": {
+    "description": "The name of preset 'hunting-site'",
+    "message": "កន្លែងបរបាញ់"
+  },
+  "presets.lake.name": {
+    "description": "The name of preset 'lake'",
+    "message": "បឹង"
+  },
+  "presets.line.name": {
+    "description": "The name of preset 'line'",
+    "message": "បន្ទាត់ថ្មី"
+  },
+  "presets.palm.name": {
+    "description": "The name of preset 'palm'",
+    "message": "ដូង"
+  },
+  "presets.path.name": {
+    "description": "The name of preset 'path'",
+    "message": "ផ្លូវ"
+  },
+  "presets.plant.name": {
+    "description": "The name of preset 'plant'",
+    "message": "រុក្ខជាតិ"
+  },
+  "presets.point.name": {
+    "description": "The name of preset 'point'",
+    "message": "ទស្សនៈថ្មី"
+  },
+  "presets.river.name": {
+    "description": "The name of preset 'river'",
+    "message": "ទន្លេ"
+  },
+  "presets.salt-lick.name": {
+    "description": "The name of preset 'salt-lick'",
+    "message": "វាលអំបិល"
+  },
+  "presets.special-site.name": {
+    "description": "The name of preset 'special-site'",
+    "message": "តំបន់ពិសេស"
+  },
+  "presets.special-site.terms": {
+    "description": "List of search terms for preset 'special-site'",
+    "message": "រឿង, ពិសិដ្ឋ, ជាប្រវត្តិសាស្រ្ត, ប្រវត្តិសាស្រ្ត"
+  },
+  "presets.stream.name": {
+    "description": "The name of preset 'stream'",
+    "message": "ស្ទឹង"
+  },
+  "presets.swidden.name": {
+    "description": "The name of preset 'swidden'",
+    "message": "ដីស្រែចំការ"
+  },
+  "presets.swidden.terms": {
+    "description": "List of search terms for preset 'swidden'",
+    "message": "កសិដ្ឋាន, សួនច្បារ, គ្រោង, បែងចែក, ដីស្រែ, ការដាំដុះ"
+  },
+  "presets.threat.name": {
+    "description": "The name of preset 'threat'",
+    "message": "ការគំរាមកំហែង"
+  },
+  "presets.threat.terms": {
+    "description": "List of search terms for preset 'threat'",
+    "message": "គ្រោះថ្នាក់, ខុសច្បាប់, ការត្រួតពិនិត្យ"
+  },
+  "presets.tree.name": {
+    "description": "The name of preset 'tree'",
+    "message": "ដើមឈើ"
+  },
+  "presets.waterfall.name": {
+    "description": "The name of preset 'waterfall'",
+    "message": "ទឹកជ្រោះ"
+  },
+  "presets.waterfall.terms": {
+    "description": "List of search terms for preset 'waterfall'",
+    "message": "ល្បាក់"
+  }
+}

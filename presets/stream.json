@@ -1,0 +1,16 @@
+{
+    "icon": "stream",
+    "color": "#1163DE",
+    "sort": 12,
+    "fields": [
+        "name"],
+    "geometry": [
+        "point", "line"
+    ],
+    "tags": {
+        "type" : "waterway",
+        "waterway" : "stream"
+    },
+    "terms":[],
+    "name": "Stream"
+}

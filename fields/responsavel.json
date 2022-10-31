@@ -1,0 +1,6 @@
+{
+    "key": "responsavel",
+    "type": "text",
+    "label": "Nome do responsável",
+    "placeholder": "Nome da pessoa responsável por esse nó"
+}

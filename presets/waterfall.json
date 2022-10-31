@@ -1,0 +1,16 @@
+{
+    "icon": "waterfall",
+    "color": "#1163DE",
+    "sort": 12,
+    "fields": [
+        "name"],
+    "geometry": [
+        "point"
+    ],
+    "tags": {
+        "type" : "waterway",
+        "waterway" : "waterfall"
+    },
+    "terms":["cascade"],
+    "name": "Waterfall"
+}

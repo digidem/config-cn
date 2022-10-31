@@ -1,0 +1,12 @@
+{
+    "key": "visada",
+    "type": "select_multiple",
+    "label": "Qualidade da visada",
+    "placeholder": "O quão bem se pode ver um outro ponto desde esse ponto?",
+    "options": [
+        "Visada com altura",
+        "Visada entre árvores",
+        "Pouca visada",
+        "Não se pode ver"
+    ]
+}

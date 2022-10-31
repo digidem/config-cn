@@ -1,0 +1,17 @@
+{
+    "icon": "internet",
+    "color": "#0000c6ff",
+    "sort": 1,
+    "fields": [
+        "internet",
+        "responsavel"
+    ],
+    "geometry": [
+        "point"
+    ],
+    "tags": {
+        "type": "network"
+    },
+    "terms": [],
+    "name": "Internet"
+}

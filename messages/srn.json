@@ -1,0 +1,278 @@
+{
+  "fields.animal-type.label": {
+    "description": "Label for field 'animal-type'",
+    "message": "Sort' meti"
+  },
+  "fields.animal-type.placeholder": {
+    "description": "An example to guide the user for field 'animal-type'",
+    "message": "Sort' meti na disi?"
+  },
+  "fields.building-type.label": {
+    "description": "Label for field 'building-type'",
+    "message": "Sort' oso"
+  },
+  "fields.building-type.options.\"Church\"": {
+    "description": "Select option for field 'building-type' for value '\"Church\"'",
+    "message": "Kerki"
+  },
+  "fields.building-type.options.\"Homestead\"": {
+    "description": "Select option for field 'building-type' for value '\"Homestead\"'",
+    "message": "Gron"
+  },
+  "fields.building-type.options.\"Hospital\"": {
+    "description": "Select option for field 'building-type' for value '\"Hospital\"'",
+    "message": "Hati oso"
+  },
+  "fields.building-type.options.\"Other\"": {
+    "description": "Select option for field 'building-type' for value '\"Other\"'",
+    "message": "Tra sani"
+  },
+  "fields.building-type.options.\"School\"": {
+    "description": "Select option for field 'building-type' for value '\"School\"'",
+    "message": "Skoro"
+  },
+  "fields.building-type.options.\"Shop\"": {
+    "description": "Select option for field 'building-type' for value '\"Shop\"'",
+    "message": "Wenkri"
+  },
+  "fields.building-type.placeholder": {
+    "description": "An example to guide the user for field 'building-type'",
+    "message": "Skoro/ati oso/enz"
+  },
+  "fields.items-gathered.label": {
+    "description": "Label for field 'items-gathered'",
+    "message": "Sort sani ie kan kisi djaso?"
+  },
+  "fields.items-gathered.placeholder": {
+    "description": "An example to guide the user for field 'items-gathered'",
+    "message": "lek faya-udu / dresi enz."
+  },
+  "fields.name.label": {
+    "description": "Label for field 'name'",
+    "message": "Neng"
+  },
+  "fields.name.placeholder": {
+    "description": "An example to guide the user for field 'name'",
+    "message": "San na a neng fu a presi disi"
+  },
+  "fields.note.label": {
+    "description": "Label for field 'note'",
+    "message": "Notitie"
+  },
+  "fields.note.placeholder": {
+    "description": "An example to guide the user for field 'note'",
+    "message": "Tori o tra sani yu wan skrifi abra a presi disi"
+  },
+  "fields.owner.label": {
+    "description": "Label for field 'owner'",
+    "message": "Eiginari"
+  },
+  "fields.owner.placeholder": {
+    "description": "An example to guide the user for field 'owner'",
+    "message": "Eigenari noso a man di gebroiki a presi disi"
+  },
+  "fields.palm-species.label": {
+    "description": "Label for field 'palm-species'",
+    "message": "Sort palm bon"
+  },
+  "fields.palm-species.placeholder": {
+    "description": "An example to guide the user for field 'palm-species'",
+    "message": "Sort palm bon na disi?"
+  },
+  "fields.plant-species.label": {
+    "description": "Label for field 'plant-species'",
+    "message": "Sort prani"
+  },
+  "fields.plant-species.placeholder": {
+    "description": "An example to guide the user for field 'plant-species'",
+    "message": "Sort prani na disi?"
+  },
+  "fields.source.label": {
+    "description": "Label for field 'source'",
+    "message": "Bron"
+  },
+  "fields.source.placeholder": {
+    "description": "An example to guide the user for field 'source'",
+    "message": "Bron fu a gegevens"
+  },
+  "fields.tree-species.label": {
+    "description": "Label for field 'tree-species'",
+    "message": "Sort bon"
+  },
+  "fields.tree-species.placeholder": {
+    "description": "An example to guide the user for field 'tree-species'",
+    "message": "Sort bon na disi?"
+  },
+  "fields.type.label": {
+    "description": "Label for field 'type'",
+    "message": "Sort pasi na disi?"
+  },
+  "fields.type.placeholder": {
+    "description": "An example to guide the user for field 'type'",
+    "message": "Fa dey man gebroiki a pasi disi?"
+  },
+  "presets.airstrip.name": {
+    "description": "The name of preset 'airstrip'",
+    "message": "Lanpresi"
+  },
+  "presets.airstrip.terms": {
+    "description": "List of search terms for preset 'airstrip'",
+    "message": "lanpresi,freigron,saka"
+  },
+  "presets.animal.name": {
+    "description": "The name of preset 'animal'",
+    "message": "Meti"
+  },
+  "presets.area.name": {
+    "description": "The name of preset 'area'",
+    "message": "Nyun pisi"
+  },
+  "presets.boundary-line.name": {
+    "description": "The name of preset 'boundary-line'",
+    "message": "grens"
+  },
+  "presets.boundary-line.terms": {
+    "description": "List of search terms for preset 'boundary-line'",
+    "message": "grens,tapusei"
+  },
+  "presets.building.name": {
+    "description": "The name of preset 'building'",
+    "message": "Gebouw"
+  },
+  "presets.building.terms": {
+    "description": "List of search terms for preset 'building'",
+    "message": "dresi,skoro"
+  },
+  "presets.camp.name": {
+    "description": "The name of preset 'camp'",
+    "message": "Kampu"
+  },
+  "presets.camp.terms": {
+    "description": "List of search terms for preset 'camp'",
+    "message": "kampu,set wan kampu,onti"
+  },
+  "presets.cave.name": {
+    "description": "The name of preset 'cave'",
+    "message": "Bergi-olo"
+  },
+  "presets.clay.name": {
+    "description": "The name of preset 'clay'",
+    "message": "Klei"
+  },
+  "presets.community.name": {
+    "description": "The name of preset 'community'",
+    "message": "Gemeenschap"
+  },
+  "presets.community.terms": {
+    "description": "List of search terms for preset 'community'",
+    "message": "kondre"
+  },
+  "presets.fishing-site.name": {
+    "description": "The name of preset 'fishing-site'",
+    "message": "Presi fu fisi"
+  },
+  "presets.fishing-site.terms": {
+    "description": "List of search terms for preset 'fishing-site'",
+    "message": "fisi"
+  },
+  "presets.gathering-site.name": {
+    "description": "The name of preset 'gathering-site'",
+    "message": "Presi pe yu kan kisi sani"
+  },
+  "presets.gathering-site.terms": {
+    "description": "List of search terms for preset 'gathering-site'",
+    "message": "hipi"
+  },
+  "presets.hills.name": {
+    "description": "The name of preset 'hills'",
+    "message": "Pikin bergi"
+  },
+  "presets.hills.terms": {
+    "description": "List of search terms for preset 'hills'",
+    "message": "bergi"
+  },
+  "presets.house.name": {
+    "description": "The name of preset 'house'",
+    "message": "Tanpresi"
+  },
+  "presets.house.terms": {
+    "description": "List of search terms for preset 'house'",
+    "message": "oso,tanpresi"
+  },
+  "presets.hunting-site.name": {
+    "description": "The name of preset 'hunting-site'",
+    "message": "Onti presi"
+  },
+  "presets.lake.name": {
+    "description": "The name of preset 'lake'",
+    "message": "Meer"
+  },
+  "presets.line.name": {
+    "description": "The name of preset 'line'",
+    "message": "Nyun lin"
+  },
+  "presets.palm.name": {
+    "description": "The name of preset 'palm'",
+    "message": "Palm bon"
+  },
+  "presets.path.name": {
+    "description": "The name of preset 'path'",
+    "message": "Pasi"
+  },
+  "presets.plant.name": {
+    "description": "The name of preset 'plant'",
+    "message": "Prani"
+  },
+  "presets.point.name": {
+    "description": "The name of preset 'point'",
+    "message": "Nyun mofo"
+  },
+  "presets.river.name": {
+    "description": "The name of preset 'river'",
+    "message": "Liba"
+  },
+  "presets.salt-lick.name": {
+    "description": "The name of preset 'salt-lick'",
+    "message": "Sowtu presi"
+  },
+  "presets.special-site.name": {
+    "description": "The name of preset 'special-site'",
+    "message": "Aparti presi"
+  },
+  "presets.special-site.terms": {
+    "description": "List of search terms for preset 'special-site'",
+    "message": "tori,santa,fositen,historie"
+  },
+  "presets.stream.name": {
+    "description": "The name of preset 'stream'",
+    "message": "Kriki"
+  },
+  "presets.swidden.name": {
+    "description": "The name of preset 'swidden'",
+    "message": "Prani gron"
+  },
+  "presets.swidden.terms": {
+    "description": "List of search terms for preset 'swidden'",
+    "message": "prani gron,dyari,pisi gron,domein,aleisi gron,kostgron"
+  },
+  "presets.threat.name": {
+    "description": "The name of preset 'threat'",
+    "message": "Kefalek"
+  },
+  "presets.threat.terms": {
+    "description": "List of search terms for preset 'threat'",
+    "message": "kefalek,illegaal,luku a busi"
+  },
+  "presets.tree.name": {
+    "description": "The name of preset 'tree'",
+    "message": "Bon"
+  },
+  "presets.waterfall.name": {
+    "description": "The name of preset 'waterfall'",
+    "message": "Bigi sula"
+  },
+  "presets.waterfall.terms": {
+    "description": "List of search terms for preset 'waterfall'",
+    "message": "sula"
+  }
+}

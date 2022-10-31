@@ -1,0 +1,19 @@
+{
+    "icon": "router",
+    "color": "#ffa600",
+    "sort": 2,
+    "fields": [
+        "energia",
+        "visada",
+        "instalacao",
+        "responsavel"
+    ],
+    "geometry": [
+        "point"
+    ],
+    "tags": {
+        "type": "network"
+    },
+    "terms": [],
+    "name": "Router"
+}

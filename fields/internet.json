@@ -1,0 +1,12 @@
+{
+    "key": "internet",
+    "type": "select_multiple",
+    "label": "Qual seu tipo de Internet",
+    "placeholder": "Que tipo de serviço é contratado para te dar acesso a Internet?",
+    "options": [
+        "Fibra óptica",
+        "Rádio",
+        "Satélite",
+        "Starlink"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "icon": "river",
+    "color": "#1163DE",
+    "sort": 12,
+    "fields": [
+        "name"],
+    "geometry": [
+        "point", "line"
+    ],
+    "tags": {
+        "waterway" : "river",
+        "type" : "waterway"
+
+    },
+    "terms":[],
+    "name": "River"
+}

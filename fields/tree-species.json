@@ -1,0 +1,6 @@
+{
+    "key": "tree-species",
+    "type": "text",
+    "label": "Tree species",
+    "placeholder": "What kind of tree?"
+}

@@ -1,0 +1,6 @@
+{
+    "key": "note",
+    "type": "text",
+    "label": "Note",
+	"placeholder": "Stories or notes about this place"
+}

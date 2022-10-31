@@ -1,0 +1,17 @@
+{
+    "area": [
+        "community", "hills", "lake",
+        "tree", "plant"
+    ],
+    "line": [
+		"river","stream"
+    ],
+    "point": [
+        "community", "house", "plant",
+        "waterfall", "tree", "router"
+    ],
+    "vertex": [
+    ],
+    "relation": [
+    ]
+}

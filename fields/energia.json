@@ -1,0 +1,13 @@
+{
+    "key": "energia",
+    "type": "select_multiple",
+    "label": "Facilidade de energia",
+    "placeholder": "Qual a facilidade de acesso a energia nesse ponto?",
+    "options": [
+        "Tomada pronta",
+        "Precisa de extensão da tomada",
+        "Precisa de proteção a chuva",
+        "Acesso por alta tensão",
+        "Acesso ruim"
+    ]
+}

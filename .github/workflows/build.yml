@@ -1,0 +1,148 @@
+# Run whenever code is pushed or when manually triggers from Github UI
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '(Optional) Version name, in format v1.2.3'
+        required: false
+
+name: Build & Release
+
+jobs:
+  prepare-release:
+    name: Prepare Release
+    runs-on: ubuntu-20.04
+    if: github.event_name == 'workflow_dispatch'
+    outputs:
+      version: ${{ steps.pkg.outputs.prop }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Use Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Configure git user & email
+        run: |
+          git config user.name Github Actions
+          git config user.email actions@github.com
+      - name: Prepare new version
+        run: npx standard-version --release-as '${{ github.event.inputs.version }}'
+      - name: Commit changes
+        run: git push --follow-tags
+      - name: Get package version
+        id: pkg
+        uses: notiz-dev/github-action-json-property@release
+        with:
+          path: 'package.json'
+          prop_path: 'version'
+  create-release:
+    name: Create Release
+    # Run this job after prepare-release, whether or not it runs, and run on
+    # either a tag push or when manually triggered
+    if: always() && (github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')))
+    needs: prepare-release
+    outputs:
+      tag: ${{ steps.get_tag.outputs.tag }}
+      upload_url: ${{ steps.release.outputs.upload_url }}
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Get tag name
+        id: get_tag
+        run: |
+          if [[ -n '${{ needs.prepare-release.outputs.version }}' ]]; then
+            TAG=v${{ needs.prepare-release.outputs.version }}
+          else
+            # Use bash parameter expansion to remove refs/tags/ from GITHUB_REF
+            TAG=${GITHUB_REF/refs\/tags\//}
+          fi
+          echo ::set-output name=tag::$TAG
+      - name: Create Release
+        id: release
+        uses: actions/create-release@v1
+        continue-on-error: true # Ignore failure if release already exists
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: ${{ steps.get_tag.outputs.tag }}
+          release_name: Release ${{ steps.get_tag.outputs.tag }}
+          body: |
+            For changes see [CHANGELOG.md](CHANGELOG.md)
+          draft: false
+          prerelease: false
+  build:
+    # This step runs on every push, ensures there is an artifact for each push
+    name: Build
+    runs-on: ubuntu-20.04
+    if: always()
+    needs: [prepare-release, create-release]
+    outputs:
+      artifact: ${{ steps.filename.outputs.filename }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Use Node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Get package name
+        id: pkg_name
+        uses: notiz-dev/github-action-json-property@release
+        with:
+          path: 'package.json'
+          prop_path: 'name'
+      - name: Get version
+        id: version
+        run: |
+          # Use either the git tag or the git commit sha to identify the version
+          if [[ -n '${{ needs.create-release.outputs.tag }}' ]]; then
+            VERSION=${{ needs.create-release.outputs.tag }}
+          else
+            # Get a short ID to the commit used to build this version
+            VERSION=$(git rev-parse --short ${{ github.sha }})
+          fi
+          echo ::set-output name=version::$VERSION
+      - name: Write version to metadata.json
+        uses: jossef/action-set-json-field@v1
+        with:
+          file: metadata.json
+          field: version
+          value: ${{ steps.version.outputs.version }}
+      - name: Create filename
+        id: filename
+        run: echo ::set-output name=filename::${{ steps.pkg_name.outputs.prop }}_${{ steps.version.outputs.version }}.mapeosettings
+      - run: npm ci
+      - name: Build asset
+        id: build_asset
+        run: |
+          mkdir -p build
+          $(npm bin)/mapeo-settings build -l 'en' -o build/${{ steps.filename.outputs.filename }}
+      - uses: actions/upload-artifact@v2
+        with:
+          name: ${{ steps.filename.outputs.filename }}
+          path: build/${{ steps.filename.outputs.filename }}
+  upload-release:
+    name: Upload release
+    runs-on: ubuntu-20.04
+    # Only runs if a release has been created
+    needs: [build, create-release]
+    steps:
+      - name: Download artifact
+        id: download
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ needs.build.outputs.artifact }}
+      - name: 'Echo download path'
+        run: echo ${{ steps.download.outputs.download-path }}
+      - name: Display structure of downloaded files
+        run: ls -R
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ needs.create-release.outputs.upload_url }}
+          asset_path: ${{ needs.build.outputs.artifact }}
+          asset_name: ${{ needs.build.outputs.artifact }}
+          asset_content_type: application/zip

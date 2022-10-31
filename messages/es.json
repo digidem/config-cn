@@ -1,0 +1,278 @@
+{
+  "fields.animal-type.label": {
+    "description": "Label for field 'animal-type'",
+    "message": "Tipo de animal"
+  },
+  "fields.animal-type.placeholder": {
+    "description": "An example to guide the user for field 'animal-type'",
+    "message": "¿Qué tipo de animal?"
+  },
+  "fields.building-type.label": {
+    "description": "Label for field 'building-type'",
+    "message": "Tipo de edificio"
+  },
+  "fields.building-type.options.\"Church\"": {
+    "description": "Select option for field 'building-type' for value '\"Church\"'",
+    "message": "Iglesia"
+  },
+  "fields.building-type.options.\"Homestead\"": {
+    "description": "Select option for field 'building-type' for value '\"Homestead\"'",
+    "message": "Caserío"
+  },
+  "fields.building-type.options.\"Hospital\"": {
+    "description": "Select option for field 'building-type' for value '\"Hospital\"'",
+    "message": "Hospital"
+  },
+  "fields.building-type.options.\"Other\"": {
+    "description": "Select option for field 'building-type' for value '\"Other\"'",
+    "message": "Otro"
+  },
+  "fields.building-type.options.\"School\"": {
+    "description": "Select option for field 'building-type' for value '\"School\"'",
+    "message": "Escuela"
+  },
+  "fields.building-type.options.\"Shop\"": {
+    "description": "Select option for field 'building-type' for value '\"Shop\"'",
+    "message": "Tienda"
+  },
+  "fields.building-type.placeholder": {
+    "description": "An example to guide the user for field 'building-type'",
+    "message": "Escuela/hospital/etc"
+  },
+  "fields.items-gathered.label": {
+    "description": "Label for field 'items-gathered'",
+    "message": "¿Qué se recoge aquí?"
+  },
+  "fields.items-gathered.placeholder": {
+    "description": "An example to guide the user for field 'items-gathered'",
+    "message": "ej. leña / medicina, etc."
+  },
+  "fields.name.label": {
+    "description": "Label for field 'name'",
+    "message": "Nombre"
+  },
+  "fields.name.placeholder": {
+    "description": "An example to guide the user for field 'name'",
+    "message": "Nombre común de este lugar"
+  },
+  "fields.note.label": {
+    "description": "Label for field 'note'",
+    "message": "Nota"
+  },
+  "fields.note.placeholder": {
+    "description": "An example to guide the user for field 'note'",
+    "message": "Historias o notas sobre este lugar"
+  },
+  "fields.owner.label": {
+    "description": "Label for field 'owner'",
+    "message": "Dueño"
+  },
+  "fields.owner.placeholder": {
+    "description": "An example to guide the user for field 'owner'",
+    "message": "Dueño o usuario del lugar"
+  },
+  "fields.palm-species.label": {
+    "description": "Label for field 'palm-species'",
+    "message": "Especie de palma"
+  },
+  "fields.palm-species.placeholder": {
+    "description": "An example to guide the user for field 'palm-species'",
+    "message": "¿Qué tipo de palma?"
+  },
+  "fields.plant-species.label": {
+    "description": "Label for field 'plant-species'",
+    "message": "Especie de planta"
+  },
+  "fields.plant-species.placeholder": {
+    "description": "An example to guide the user for field 'plant-species'",
+    "message": "¿Qué tipo de planta?"
+  },
+  "fields.source.label": {
+    "description": "Label for field 'source'",
+    "message": "Fuente"
+  },
+  "fields.source.placeholder": {
+    "description": "An example to guide the user for field 'source'",
+    "message": "Fuente de datos"
+  },
+  "fields.tree-species.label": {
+    "description": "Label for field 'tree-species'",
+    "message": "Especie de árbol"
+  },
+  "fields.tree-species.placeholder": {
+    "description": "An example to guide the user for field 'tree-species'",
+    "message": "¿Qué tipo de árbol?"
+  },
+  "fields.type.label": {
+    "description": "Label for field 'type'",
+    "message": "¿Qué tipo de camino?"
+  },
+  "fields.type.placeholder": {
+    "description": "An example to guide the user for field 'type'",
+    "message": "¿Para qué se usa este camino?"
+  },
+  "presets.airstrip.name": {
+    "description": "The name of preset 'airstrip'",
+    "message": "Pista de aterrizaje"
+  },
+  "presets.airstrip.terms": {
+    "description": "List of search terms for preset 'airstrip'",
+    "message": "campo de aviación, aeropuerto, aterrizaje"
+  },
+  "presets.animal.name": {
+    "description": "The name of preset 'animal'",
+    "message": "Animal"
+  },
+  "presets.area.name": {
+    "description": "The name of preset 'area'",
+    "message": "Nueva área"
+  },
+  "presets.boundary-line.name": {
+    "description": "The name of preset 'boundary-line'",
+    "message": "Límite"
+  },
+  "presets.boundary-line.terms": {
+    "description": "List of search terms for preset 'boundary-line'",
+    "message": "frontera, límite"
+  },
+  "presets.building.name": {
+    "description": "The name of preset 'building'",
+    "message": "Construcción"
+  },
+  "presets.building.terms": {
+    "description": "List of search terms for preset 'building'",
+    "message": "médico, escula"
+  },
+  "presets.camp.name": {
+    "description": "The name of preset 'camp'",
+    "message": "Campamento"
+  },
+  "presets.camp.terms": {
+    "description": "List of search terms for preset 'camp'",
+    "message": "campamento, cacería, acampada"
+  },
+  "presets.cave.name": {
+    "description": "The name of preset 'cave'",
+    "message": "Cueva"
+  },
+  "presets.clay.name": {
+    "description": "The name of preset 'clay'",
+    "message": "Arcilla"
+  },
+  "presets.community.name": {
+    "description": "The name of preset 'community'",
+    "message": "Comunidad"
+  },
+  "presets.community.terms": {
+    "description": "List of search terms for preset 'community'",
+    "message": "pueblo"
+  },
+  "presets.fishing-site.name": {
+    "description": "The name of preset 'fishing-site'",
+    "message": "Sitio de pesca"
+  },
+  "presets.fishing-site.terms": {
+    "description": "List of search terms for preset 'fishing-site'",
+    "message": "pescado"
+  },
+  "presets.gathering-site.name": {
+    "description": "The name of preset 'gathering-site'",
+    "message": "Sitio de recolección"
+  },
+  "presets.gathering-site.terms": {
+    "description": "List of search terms for preset 'gathering-site'",
+    "message": "recolección"
+  },
+  "presets.hills.name": {
+    "description": "The name of preset 'hills'",
+    "message": "Colinas"
+  },
+  "presets.hills.terms": {
+    "description": "List of search terms for preset 'hills'",
+    "message": "montañas"
+  },
+  "presets.house.name": {
+    "description": "The name of preset 'house'",
+    "message": "Casa"
+  },
+  "presets.house.terms": {
+    "description": "List of search terms for preset 'house'",
+    "message": "casa, hogar"
+  },
+  "presets.hunting-site.name": {
+    "description": "The name of preset 'hunting-site'",
+    "message": "Sitio de caza"
+  },
+  "presets.lake.name": {
+    "description": "The name of preset 'lake'",
+    "message": "Lago"
+  },
+  "presets.line.name": {
+    "description": "The name of preset 'line'",
+    "message": "Nueva línea"
+  },
+  "presets.palm.name": {
+    "description": "The name of preset 'palm'",
+    "message": "Palma"
+  },
+  "presets.path.name": {
+    "description": "The name of preset 'path'",
+    "message": "Camino"
+  },
+  "presets.plant.name": {
+    "description": "The name of preset 'plant'",
+    "message": "Planta"
+  },
+  "presets.point.name": {
+    "description": "The name of preset 'point'",
+    "message": "Nuevo punto"
+  },
+  "presets.river.name": {
+    "description": "The name of preset 'river'",
+    "message": "Río"
+  },
+  "presets.salt-lick.name": {
+    "description": "The name of preset 'salt-lick'",
+    "message": "Colpa"
+  },
+  "presets.special-site.name": {
+    "description": "The name of preset 'special-site'",
+    "message": "Sitio especial"
+  },
+  "presets.special-site.terms": {
+    "description": "List of search terms for preset 'special-site'",
+    "message": "historia, sagrada, histórico, cuento"
+  },
+  "presets.stream.name": {
+    "description": "The name of preset 'stream'",
+    "message": "Quebrada"
+  },
+  "presets.swidden.name": {
+    "description": "The name of preset 'swidden'",
+    "message": "Tierra agrícola"
+  },
+  "presets.swidden.terms": {
+    "description": "List of search terms for preset 'swidden'",
+    "message": "granja, jardín, parcela, terreno, arrozal, cultivo"
+  },
+  "presets.threat.name": {
+    "description": "The name of preset 'threat'",
+    "message": "Amenaza"
+  },
+  "presets.threat.terms": {
+    "description": "List of search terms for preset 'threat'",
+    "message": "peligro, ilegal, monitoreo"
+  },
+  "presets.tree.name": {
+    "description": "The name of preset 'tree'",
+    "message": "Árbol"
+  },
+  "presets.waterfall.name": {
+    "description": "The name of preset 'waterfall'",
+    "message": "Cascada"
+  },
+  "presets.waterfall.terms": {
+    "description": "List of search terms for preset 'waterfall'",
+    "message": "cascada"
+  }
+}

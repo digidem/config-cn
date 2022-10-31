@@ -1,0 +1,16 @@
+{
+    "icon": "plant",
+    "color": "#2D9905",
+    "sort": 11,
+    "fields": [
+        "plant-species"],
+    "geometry": [
+        "point", "area"
+    ],
+    "tags": {
+        "type" : "natural",
+        "natural" : "plant"
+    },
+    "terms":[],
+    "name": "Plant"
+}

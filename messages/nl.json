@@ -1,0 +1,278 @@
+{
+  "fields.animal-type.label": {
+    "description": "Label for field 'animal-type'",
+    "message": "Soort dier"
+  },
+  "fields.animal-type.placeholder": {
+    "description": "An example to guide the user for field 'animal-type'",
+    "message": "Wat voor soort dier?"
+  },
+  "fields.building-type.label": {
+    "description": "Label for field 'building-type'",
+    "message": "Soort gebouw"
+  },
+  "fields.building-type.options.\"Church\"": {
+    "description": "Select option for field 'building-type' for value '\"Church\"'",
+    "message": "Kerk"
+  },
+  "fields.building-type.options.\"Homestead\"": {
+    "description": "Select option for field 'building-type' for value '\"Homestead\"'",
+    "message": "Huishouden"
+  },
+  "fields.building-type.options.\"Hospital\"": {
+    "description": "Select option for field 'building-type' for value '\"Hospital\"'",
+    "message": "Ziekenhuis"
+  },
+  "fields.building-type.options.\"Other\"": {
+    "description": "Select option for field 'building-type' for value '\"Other\"'",
+    "message": "Iets anders"
+  },
+  "fields.building-type.options.\"School\"": {
+    "description": "Select option for field 'building-type' for value '\"School\"'",
+    "message": "School"
+  },
+  "fields.building-type.options.\"Shop\"": {
+    "description": "Select option for field 'building-type' for value '\"Shop\"'",
+    "message": "Winkel"
+  },
+  "fields.building-type.placeholder": {
+    "description": "An example to guide the user for field 'building-type'",
+    "message": "School/ziekenhuis/enz"
+  },
+  "fields.items-gathered.label": {
+    "description": "Label for field 'items-gathered'",
+    "message": "Wat wordt hier verzameld?"
+  },
+  "fields.items-gathered.placeholder": {
+    "description": "An example to guide the user for field 'items-gathered'",
+    "message": "bijv. vuurhout / geneesmiddel, enz."
+  },
+  "fields.name.label": {
+    "description": "Label for field 'name'",
+    "message": "Naam"
+  },
+  "fields.name.placeholder": {
+    "description": "An example to guide the user for field 'name'",
+    "message": "Algemene naam van deze plaats"
+  },
+  "fields.note.label": {
+    "description": "Label for field 'note'",
+    "message": "Opmerking"
+  },
+  "fields.note.placeholder": {
+    "description": "An example to guide the user for field 'note'",
+    "message": "Verhalen of notities over deze plaats"
+  },
+  "fields.owner.label": {
+    "description": "Label for field 'owner'",
+    "message": "Eigenaar"
+  },
+  "fields.owner.placeholder": {
+    "description": "An example to guide the user for field 'owner'",
+    "message": "Eigenaar of gebruiker van de plaats"
+  },
+  "fields.palm-species.label": {
+    "description": "Label for field 'palm-species'",
+    "message": "Soort palm"
+  },
+  "fields.palm-species.placeholder": {
+    "description": "An example to guide the user for field 'palm-species'",
+    "message": "Wat voor soort palm?"
+  },
+  "fields.plant-species.label": {
+    "description": "Label for field 'plant-species'",
+    "message": "Plantensoort"
+  },
+  "fields.plant-species.placeholder": {
+    "description": "An example to guide the user for field 'plant-species'",
+    "message": "Wat voor soort plant?"
+  },
+  "fields.source.label": {
+    "description": "Label for field 'source'",
+    "message": "Bron"
+  },
+  "fields.source.placeholder": {
+    "description": "An example to guide the user for field 'source'",
+    "message": "Gegevensbron"
+  },
+  "fields.tree-species.label": {
+    "description": "Label for field 'tree-species'",
+    "message": "Boomsoort"
+  },
+  "fields.tree-species.placeholder": {
+    "description": "An example to guide the user for field 'tree-species'",
+    "message": "Wat voor soort boom?"
+  },
+  "fields.type.label": {
+    "description": "Label for field 'type'",
+    "message": "Wat voor soort pad?"
+  },
+  "fields.type.placeholder": {
+    "description": "An example to guide the user for field 'type'",
+    "message": "Hoe wordt dit pad gebruikt?"
+  },
+  "presets.airstrip.name": {
+    "description": "The name of preset 'airstrip'",
+    "message": "Landingsbaan"
+  },
+  "presets.airstrip.terms": {
+    "description": "List of search terms for preset 'airstrip'",
+    "message": "vliegveld,luchthaven,landingsbaan"
+  },
+  "presets.animal.name": {
+    "description": "The name of preset 'animal'",
+    "message": "Dier"
+  },
+  "presets.area.name": {
+    "description": "The name of preset 'area'",
+    "message": "Nieuw gebied"
+  },
+  "presets.boundary-line.name": {
+    "description": "The name of preset 'boundary-line'",
+    "message": "gebiedsgrens"
+  },
+  "presets.boundary-line.terms": {
+    "description": "List of search terms for preset 'boundary-line'",
+    "message": "grens,grensscheiding"
+  },
+  "presets.building.name": {
+    "description": "The name of preset 'building'",
+    "message": "Gebouw"
+  },
+  "presets.building.terms": {
+    "description": "List of search terms for preset 'building'",
+    "message": "medisch,school"
+  },
+  "presets.camp.name": {
+    "description": "The name of preset 'camp'",
+    "message": "Kamp"
+  },
+  "presets.camp.terms": {
+    "description": "List of search terms for preset 'camp'",
+    "message": "kampplek,kamperen,jacht"
+  },
+  "presets.cave.name": {
+    "description": "The name of preset 'cave'",
+    "message": "Grot"
+  },
+  "presets.clay.name": {
+    "description": "The name of preset 'clay'",
+    "message": "Klei"
+  },
+  "presets.community.name": {
+    "description": "The name of preset 'community'",
+    "message": "Gemeenschap"
+  },
+  "presets.community.terms": {
+    "description": "List of search terms for preset 'community'",
+    "message": "dorp"
+  },
+  "presets.fishing-site.name": {
+    "description": "The name of preset 'fishing-site'",
+    "message": "Vissen plaats"
+  },
+  "presets.fishing-site.terms": {
+    "description": "List of search terms for preset 'fishing-site'",
+    "message": "vis"
+  },
+  "presets.gathering-site.name": {
+    "description": "The name of preset 'gathering-site'",
+    "message": "Verzamelplaats"
+  },
+  "presets.gathering-site.terms": {
+    "description": "List of search terms for preset 'gathering-site'",
+    "message": "verzameling"
+  },
+  "presets.hills.name": {
+    "description": "The name of preset 'hills'",
+    "message": "Heuvels"
+  },
+  "presets.hills.terms": {
+    "description": "List of search terms for preset 'hills'",
+    "message": "bergen"
+  },
+  "presets.house.name": {
+    "description": "The name of preset 'house'",
+    "message": "Huis"
+  },
+  "presets.house.terms": {
+    "description": "List of search terms for preset 'house'",
+    "message": "huis,woning"
+  },
+  "presets.hunting-site.name": {
+    "description": "The name of preset 'hunting-site'",
+    "message": "Jachtplaats"
+  },
+  "presets.lake.name": {
+    "description": "The name of preset 'lake'",
+    "message": "Meer"
+  },
+  "presets.line.name": {
+    "description": "The name of preset 'line'",
+    "message": "Nieuwe lijn"
+  },
+  "presets.palm.name": {
+    "description": "The name of preset 'palm'",
+    "message": "Palm"
+  },
+  "presets.path.name": {
+    "description": "The name of preset 'path'",
+    "message": "Pad"
+  },
+  "presets.plant.name": {
+    "description": "The name of preset 'plant'",
+    "message": "Plant"
+  },
+  "presets.point.name": {
+    "description": "The name of preset 'point'",
+    "message": "Nieuw punt"
+  },
+  "presets.river.name": {
+    "description": "The name of preset 'river'",
+    "message": "Rivier"
+  },
+  "presets.salt-lick.name": {
+    "description": "The name of preset 'salt-lick'",
+    "message": "Zoutlik"
+  },
+  "presets.special-site.name": {
+    "description": "The name of preset 'special-site'",
+    "message": "Speciale plek"
+  },
+  "presets.special-site.terms": {
+    "description": "List of search terms for preset 'special-site'",
+    "message": "verhaal,heilig,historisch,geschiedenis"
+  },
+  "presets.stream.name": {
+    "description": "The name of preset 'stream'",
+    "message": "Stroom"
+  },
+  "presets.swidden.name": {
+    "description": "The name of preset 'swidden'",
+    "message": "Akkerland"
+  },
+  "presets.swidden.terms": {
+    "description": "List of search terms for preset 'swidden'",
+    "message": "boerderij,tuin,plot,toewijzing,rijstveld,teelt"
+  },
+  "presets.threat.name": {
+    "description": "The name of preset 'threat'",
+    "message": "Bedreiging"
+  },
+  "presets.threat.terms": {
+    "description": "List of search terms for preset 'threat'",
+    "message": "gevaar,illegaal,toezicht"
+  },
+  "presets.tree.name": {
+    "description": "The name of preset 'tree'",
+    "message": "Boom"
+  },
+  "presets.waterfall.name": {
+    "description": "The name of preset 'waterfall'",
+    "message": "Waterval"
+  },
+  "presets.waterfall.terms": {
+    "description": "List of search terms for preset 'waterfall'",
+    "message": "stroomversnelling"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "icon": "tree",
+    "color": "#2D9905",
+    "sort": 11,
+    "fields": [
+        "tree-species"],
+    "geometry": [
+        "point", "area"
+    ],
+    "tags": {
+        "type" : "natural",
+        "natural" : "tree"
+    },
+    "terms":[],
+    "name": "Tree"
+}

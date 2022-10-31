@@ -1,0 +1,270 @@
+{
+  "fields.building-type.helperText": {
+    "description": "Descriptive text for field 'building-type'",
+    "message": ""
+  },
+  "fields.building-type.label": {
+    "description": "Label for field 'building-type'",
+    "message": "Building type"
+  },
+  "fields.building-type.placeholder": {
+    "description": "An example to guide the user for field 'building-type'",
+    "message": "School/hospital/etc"
+  },
+  "fields.energia.helperText": {
+    "description": "Descriptive text for field 'energia'",
+    "message": ""
+  },
+  "fields.energia.label": {
+    "description": "Label for field 'energia'",
+    "message": "Facilidade de energia"
+  },
+  "fields.energia.placeholder": {
+    "description": "An example to guide the user for field 'energia'",
+    "message": "Qual a facilidade de acesso a energia nesse ponto?"
+  },
+  "fields.instalacao.helperText": {
+    "description": "Descriptive text for field 'instalacao'",
+    "message": ""
+  },
+  "fields.instalacao.label": {
+    "description": "Label for field 'instalacao'",
+    "message": "Instalação do aparelho"
+  },
+  "fields.instalacao.placeholder": {
+    "description": "An example to guide the user for field 'instalacao'",
+    "message": "Como é a estrutura para instalação nees ponto?"
+  },
+  "fields.internet.helperText": {
+    "description": "Descriptive text for field 'internet'",
+    "message": ""
+  },
+  "fields.internet.label": {
+    "description": "Label for field 'internet'",
+    "message": "Qual seu tipo de Internet"
+  },
+  "fields.internet.placeholder": {
+    "description": "An example to guide the user for field 'internet'",
+    "message": "Que tipo de serviço é contratado para te dar acesso a Internet?"
+  },
+  "fields.name.helperText": {
+    "description": "Descriptive text for field 'name'",
+    "message": ""
+  },
+  "fields.name.label": {
+    "description": "Label for field 'name'",
+    "message": "Name"
+  },
+  "fields.name.placeholder": {
+    "description": "An example to guide the user for field 'name'",
+    "message": "Common name of this place"
+  },
+  "fields.note.helperText": {
+    "description": "Descriptive text for field 'note'",
+    "message": ""
+  },
+  "fields.note.label": {
+    "description": "Label for field 'note'",
+    "message": "Note"
+  },
+  "fields.note.placeholder": {
+    "description": "An example to guide the user for field 'note'",
+    "message": "Stories or notes about this place"
+  },
+  "fields.owner.helperText": {
+    "description": "Descriptive text for field 'owner'",
+    "message": ""
+  },
+  "fields.owner.label": {
+    "description": "Label for field 'owner'",
+    "message": "Owner"
+  },
+  "fields.owner.placeholder": {
+    "description": "An example to guide the user for field 'owner'",
+    "message": "Owner or user of the place"
+  },
+  "fields.plant-species.helperText": {
+    "description": "Descriptive text for field 'plant-species'",
+    "message": ""
+  },
+  "fields.plant-species.label": {
+    "description": "Label for field 'plant-species'",
+    "message": "Plant species"
+  },
+  "fields.plant-species.placeholder": {
+    "description": "An example to guide the user for field 'plant-species'",
+    "message": "What kind of plant?"
+  },
+  "fields.responsavel.helperText": {
+    "description": "Descriptive text for field 'responsavel'",
+    "message": ""
+  },
+  "fields.responsavel.label": {
+    "description": "Label for field 'responsavel'",
+    "message": "Nome do responsável"
+  },
+  "fields.responsavel.placeholder": {
+    "description": "An example to guide the user for field 'responsavel'",
+    "message": "Nome da pessoa responsável por esse nó"
+  },
+  "fields.source.helperText": {
+    "description": "Descriptive text for field 'source'",
+    "message": ""
+  },
+  "fields.source.label": {
+    "description": "Label for field 'source'",
+    "message": "Source"
+  },
+  "fields.source.placeholder": {
+    "description": "An example to guide the user for field 'source'",
+    "message": "Source of the data"
+  },
+  "fields.tree-species.helperText": {
+    "description": "Descriptive text for field 'tree-species'",
+    "message": ""
+  },
+  "fields.tree-species.label": {
+    "description": "Label for field 'tree-species'",
+    "message": "Tree species"
+  },
+  "fields.tree-species.placeholder": {
+    "description": "An example to guide the user for field 'tree-species'",
+    "message": "What kind of tree?"
+  },
+  "fields.type.helperText": {
+    "description": "Descriptive text for field 'type'",
+    "message": ""
+  },
+  "fields.type.label": {
+    "description": "Label for field 'type'",
+    "message": "What kind of path?"
+  },
+  "fields.type.placeholder": {
+    "description": "An example to guide the user for field 'type'",
+    "message": "What is this path used for?"
+  },
+  "fields.visada.helperText": {
+    "description": "Descriptive text for field 'visada'",
+    "message": ""
+  },
+  "fields.visada.label": {
+    "description": "Label for field 'visada'",
+    "message": "Qualidade da visada"
+  },
+  "fields.visada.placeholder": {
+    "description": "An example to guide the user for field 'visada'",
+    "message": "O quão bem se pode ver um outro ponto desde esse ponto?"
+  },
+  "presets.building.name": {
+    "description": "The name of preset 'building'",
+    "message": "Building"
+  },
+  "presets.building.terms": {
+    "description": "List of search terms for preset 'building'",
+    "message": "medical,school"
+  },
+  "presets.community.name": {
+    "description": "The name of preset 'community'",
+    "message": "Community"
+  },
+  "presets.community.terms": {
+    "description": "List of search terms for preset 'community'",
+    "message": "village"
+  },
+  "presets.hills.name": {
+    "description": "The name of preset 'hills'",
+    "message": "Hills"
+  },
+  "presets.hills.terms": {
+    "description": "List of search terms for preset 'hills'",
+    "message": "mountains"
+  },
+  "presets.house.name": {
+    "description": "The name of preset 'house'",
+    "message": "House"
+  },
+  "presets.house.terms": {
+    "description": "List of search terms for preset 'house'",
+    "message": "house,home"
+  },
+  "presets.internet-gateway.name": {
+    "description": "The name of preset 'internet-gateway'",
+    "message": "Internet"
+  },
+  "presets.internet-gateway.terms": {
+    "description": "List of search terms for preset 'internet-gateway'",
+    "message": ""
+  },
+  "presets.lake.name": {
+    "description": "The name of preset 'lake'",
+    "message": "Lake"
+  },
+  "presets.lake.terms": {
+    "description": "List of search terms for preset 'lake'",
+    "message": ""
+  },
+  "presets.librerouter-v1.name": {
+    "description": "The name of preset 'librerouter-v1'",
+    "message": "LibreRouter v1"
+  },
+  "presets.librerouter-v1.terms": {
+    "description": "List of search terms for preset 'librerouter-v1'",
+    "message": ""
+  },
+  "presets.plant.name": {
+    "description": "The name of preset 'plant'",
+    "message": "Plant"
+  },
+  "presets.plant.terms": {
+    "description": "List of search terms for preset 'plant'",
+    "message": ""
+  },
+  "presets.river.name": {
+    "description": "The name of preset 'river'",
+    "message": "River"
+  },
+  "presets.river.terms": {
+    "description": "List of search terms for preset 'river'",
+    "message": ""
+  },
+  "presets.router.name": {
+    "description": "The name of preset 'router'",
+    "message": "Router"
+  },
+  "presets.router.terms": {
+    "description": "List of search terms for preset 'router'",
+    "message": ""
+  },
+  "presets.stream.name": {
+    "description": "The name of preset 'stream'",
+    "message": "Stream"
+  },
+  "presets.stream.terms": {
+    "description": "List of search terms for preset 'stream'",
+    "message": ""
+  },
+  "presets.tp-link-tl-wdr3500-v1.name": {
+    "description": "The name of preset 'tp-link-tl-wdr3500-v1'",
+    "message": "TPLink wdr-3500"
+  },
+  "presets.tp-link-tl-wdr3500-v1.terms": {
+    "description": "List of search terms for preset 'tp-link-tl-wdr3500-v1'",
+    "message": ""
+  },
+  "presets.tree.name": {
+    "description": "The name of preset 'tree'",
+    "message": "Tree"
+  },
+  "presets.tree.terms": {
+    "description": "List of search terms for preset 'tree'",
+    "message": ""
+  },
+  "presets.waterfall.name": {
+    "description": "The name of preset 'waterfall'",
+    "message": "Waterfall"
+  },
+  "presets.waterfall.terms": {
+    "description": "List of search terms for preset 'waterfall'",
+    "message": "cascade"
+  }
+}

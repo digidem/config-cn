@@ -1,0 +1,19 @@
+{
+    "icon": "tplink-wdr",
+    "color": "#393946",
+    "sort": 2,
+    "fields": [
+        "energia",
+        "visada",
+        "instalacao",
+        "responsavel"
+    ],
+    "geometry": [
+        "point"
+    ],
+    "tags": {
+        "type": "network"
+    },
+    "terms": [],
+    "name": "TPLink wdr-3500"
+}

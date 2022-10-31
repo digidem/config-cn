@@ -1,0 +1,19 @@
+{
+    "icon": "librerouter",
+    "color": "#423f4a",
+    "sort": 1,
+    "fields": [
+        "energia",
+        "visada",
+        "instalacao",
+        "responsavel"
+    ],
+    "geometry": [
+        "point"
+    ],
+    "tags": {
+        "type": "network"
+    },
+    "terms": [],
+    "name": "LibreRouter v1"
+}

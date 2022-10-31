@@ -1,0 +1,19 @@
+{
+    "icon": "lake",
+    "color": "#1163DE",
+    "sort": 12,
+    "fields": [
+        "name"
+    ],
+    "geometry": [
+        "point", "area"
+    ],
+    "tags": {
+        "type" : "natural",
+        "natural" : "water",
+        "water" : "lake"
+
+    },
+    "terms":[],
+    "name": "Lake"
+}
