@@ -1,7 +1,7 @@
 {
-    "icon": "router",
-    "color": "#ffa600",
-    "sort": 2,
+    "icon": "tplink-c7",
+    "color": "#393946",
+    "sort": 4,
     "fields": [
         "energia",
         "visada",
@@ -15,5 +15,5 @@
         "type": "network"
     },
     "terms": [],
-    "name": "Router"
+    "name": "TPLink wdr-4300"
 }

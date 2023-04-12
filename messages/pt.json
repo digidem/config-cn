@@ -1,4 +1,12 @@
 {
+  "presets.edge-router.name": {
+    "description": "Name for field 'edge-router'",
+    "message": "Roteador de borda"
+  },
+  "presets.possible-router.name": {
+    "description": "Name for field 'possible-router'",
+    "message": "Roteador possível"
+  },
   "fields.animal-type.label": {
     "description": "Label for field 'animal-type'",
     "message": "Tipo de animal"

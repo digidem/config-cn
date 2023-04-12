@@ -1,6 +1,6 @@
 {
   "name": "config-cn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mapeo config for assisting planning and monitoring community networks",
   "dependencies": {},
   "devDependencies": {

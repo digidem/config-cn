@@ -1,7 +1,7 @@
 {
     "icon": "tplink-wdr",
     "color": "#393946",
-    "sort": 2,
+    "sort": 4,
     "fields": [
         "energia",
         "visada",

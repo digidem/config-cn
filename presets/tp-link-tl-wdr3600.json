@@ -1,7 +1,7 @@
 {
-    "icon": "librerouter",
-    "color": "#423f4a",
-    "sort": 3,
+    "icon": "tplink-wdr",
+    "color": "#393946",
+    "sort": 4,
     "fields": [
         "energia",
         "visada",
@@ -15,5 +15,5 @@
         "type": "network"
     },
     "terms": [],
-    "name": "LibreRouter v1"
+    "name": "TPLink wdr-3600"
 }

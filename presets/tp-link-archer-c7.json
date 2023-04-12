@@ -1,7 +1,7 @@
 {
-    "icon": "librerouter",
-    "color": "#423f4a",
-    "sort": 3,
+    "icon": "tplink-c7",
+    "color": "#8724B4",
+    "sort": 4,
     "fields": [
         "energia",
         "visada",
@@ -15,5 +15,5 @@
         "type": "network"
     },
     "terms": [],
-    "name": "LibreRouter v1"
+    "name": "TPLink Archer C7"
 }
